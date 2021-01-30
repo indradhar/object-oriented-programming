@@ -1,0 +1,62 @@
+01:15:51 **** Incremental Build of configuration Debug for project artificial intelligence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o state_space.o "..\\state_space.c" 
+..\state_space.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\state_space.c: In function 'main':
+..\state_space.c:19:17: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   front =(NODE*)malloc(sizeof(NODE));
+                 ^~~~~~
+..\state_space.c:19:17: warning: incompatible implicit declaration of built-in function 'malloc'
+..\state_space.c:19:17: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+..\state_space.c:3:1:
++#include <stdlib.h>
+ 
+..\state_space.c:19:17:
+   front =(NODE*)malloc(sizeof(NODE));
+                 ^~~~~~
+..\state_space.c:31:19: error: expected expression before '{' token
+   goal->arr[3][3]={1,2,3},{4,5,6},{7,8,0};
+                   ^
+01:21:23 **** Clean-only build of configuration Debug for project artificial intelligence ****
+rm -rf hey.d "artificial intelligence.exe" priority_queue.o state_space.d puzzle_solving.o priority_queue.d state_space.o puzzle_solving.d hey.o 
+01:45:44 **** Rebuild of configuration Debug for project Artificial Intelligence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu11 -o "src\\Artificial Intelligence.o" "..\\src\\Artificial Intelligence.c" 
+gcc -o "Artificial Intelligence.exe" "src\\Artificial Intelligence.o" 
+Info: Nothing to build for Artificial Intelligence
+Info: Nothing to build for Artificial Intelligence
+Info: Nothing to build for Artificial Intelligence
+Info: Nothing to build for Artificial Intelligence
+Info: Nothing to build for Artificial Intelligence
+Info: Nothing to build for Artificial Intelligence
+01:50:01 **** Incremental Build of configuration Debug for project Artificial Intelligence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu11 -o "src\\abc.o" "..\\src\\abc.c" 
+gcc -o "Artificial Intelligence.exe" "src\\Artificial Intelligence.o" "src\\abc.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\abc.o: in function `main':
+F:\C\AI\Debug/../src/abc.c:11: multiple definition of `main'; src\Artificial Intelligence.o:F:\C\AI\Debug/../src/Artificial Intelligence.c:14: first defined here
+collect2.exe: error: ld returned 1 exit status
+01:52:05 **** Incremental Build of configuration Debug for project Artificial Intelligence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu11 -o "src\\abc.o" "..\\src\\abc.c" 
+..\src\abc.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o "Artificial Intelligence.exe" "src\\abc.o" 
+01:53:50 **** Incremental Build of configuration Debug for project Artificial Intelligence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu11 -o "src\\abc.o" "..\\src\\abc.c" 
+gcc -o "Artificial Intelligence.exe" "src\\abc.o" 
+01:54:19 **** Incremental Build of configuration Debug for project Artificial Intelligence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu11 -o "src\\abc.o" "..\\src\\abc.c" 
+gcc -o "Artificial Intelligence.exe" "src\\abc.o" 
+01:54:31 **** Incremental Build of configuration Debug for project Artificial Intelligence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu11 -o "src\\abc.o" "..\\src\\abc.c" 
+gcc -o "Artificial Intelligence.exe" "src\\abc.o" 
+Info: Nothing to build for Artificial Intelligence
+Info: Nothing to build for Artificial Intelligence
+Info: Nothing to build for Artificial Intelligence
